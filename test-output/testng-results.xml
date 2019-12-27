@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="20" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38093" started-at="2019-12-22T04:14:31Z" finished-at="2019-12-22T04:15:09Z">
+    <groups>
+      <group name="Resgression">
+        <method signature="Login_TestCase.validUsername_Password()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="validUsername_Password" class="Login_TestCase"/>
+      </group> <!-- Resgression -->
+      <group name="Regression">
+        <method signature="Login_TestCase.Check_PlaceHolder_Password()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="Check_PlaceHolder_Password" class="Login_TestCase"/>
+        <method signature="Login_TestCase.Check_PlaceHolder_Username()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="Check_PlaceHolder_Username" class="Login_TestCase"/>
+        <method signature="Login_TestCase.Verify_Url()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="Verify_Url" class="Login_TestCase"/>
+        <method signature="Login_TestCase.blank_username_password()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="blank_username_password" class="Login_TestCase"/>
+        <method signature="Login_TestCase.check_Button_color()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="check_Button_color" class="Login_TestCase"/>
+        <method signature="Login_TestCase.check_Links()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="check_Links" class="Login_TestCase"/>
+        <method signature="Login_TestCase.invalidusername_password()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="invalidusername_password" class="Login_TestCase"/>
+        <method signature="Login_TestCase.loginsesion()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="loginsesion" class="Login_TestCase"/>
+        <method signature="Login_TestCase.verifyApplicationTitle()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="verifyApplicationTitle" class="Login_TestCase"/>
+        <method signature="Login_TestCase.verify_Title()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="verify_Title" class="Login_TestCase"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="Login_TestCase.Verify_Url_DashBoard()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="Verify_Url_DashBoard" class="Login_TestCase"/>
+        <method signature="Login_TestCase.heading_Dashboard()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="heading_Dashboard" class="Login_TestCase"/>
+        <method signature="Login_TestCase.verifyApplicationTitle_DashBoard()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="verifyApplicationTitle_DashBoard" class="Login_TestCase"/>
+      </group> <!-- Smoke -->
+      <group name="Unit">
+        <method signature="Login_TestCase.Click_On_AddUser_Btn()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="Click_On_AddUser_Btn" class="Login_TestCase"/>
+        <method signature="Login_TestCase.Fill_Form()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="Fill_Form" class="Login_TestCase"/>
+        <method signature="Login_TestCase.clickOn_OperatorBtn()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="clickOn_OperatorBtn" class="Login_TestCase"/>
+        <method signature="Login_TestCase.click_OnUser()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="click_OnUser" class="Login_TestCase"/>
+        <method signature="Login_TestCase.getTableData()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="getTableData" class="Login_TestCase"/>
+        <method signature="Login_TestCase.logOutBtn()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="logOutBtn" class="Login_TestCase"/>
+      </group> <!-- Unit -->
+    </groups>
+    <test name="Default test" duration-ms="38093" started-at="2019-12-22T04:14:31Z" finished-at="2019-12-22T04:15:09Z">
+      <class name="Login_TestCase">
+        <test-method status="PASS" signature="setup_Browser()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="setup_Browser" is-config="true" duration-ms="8599" started-at="2019-12-22T09:44:23Z" finished-at="2019-12-22T09:44:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_Browser -->
+        <test-method status="PASS" signature="Verify_Url()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="Verify_Url" duration-ms="12" started-at="2019-12-22T09:44:31Z" finished-at="2019-12-22T09:44:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Url -->
+        <test-method status="PASS" signature="verifyApplicationTitle()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="verifyApplicationTitle" duration-ms="7" started-at="2019-12-22T09:44:31Z" finished-at="2019-12-22T09:44:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplicationTitle -->
+        <test-method status="PASS" signature="verify_Title()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="verify_Title" duration-ms="36" started-at="2019-12-22T09:44:31Z" finished-at="2019-12-22T09:44:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Title -->
+        <test-method status="PASS" signature="loginsesion()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="loginsesion" duration-ms="14" started-at="2019-12-22T09:44:31Z" finished-at="2019-12-22T09:44:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginsesion -->
+        <test-method status="PASS" signature="Check_PlaceHolder_Username()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="Check_PlaceHolder_Username" duration-ms="29" started-at="2019-12-22T09:44:31Z" finished-at="2019-12-22T09:44:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_PlaceHolder_Username -->
+        <test-method status="PASS" signature="Check_PlaceHolder_Password()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="Check_PlaceHolder_Password" duration-ms="25" started-at="2019-12-22T09:44:31Z" finished-at="2019-12-22T09:44:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_PlaceHolder_Password -->
+        <test-method status="PASS" signature="check_Button_color()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="check_Button_color" duration-ms="484" started-at="2019-12-22T09:44:31Z" finished-at="2019-12-22T09:44:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Button_color -->
+        <test-method status="PASS" signature="check_Links()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="check_Links" duration-ms="81" started-at="2019-12-22T09:44:32Z" finished-at="2019-12-22T09:44:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Links -->
+        <test-method status="PASS" signature="blank_username_password()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="blank_username_password" duration-ms="577" started-at="2019-12-22T09:44:32Z" finished-at="2019-12-22T09:44:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blank_username_password -->
+        <test-method status="PASS" signature="invalidusername_password()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="invalidusername_password" duration-ms="4349" started-at="2019-12-22T09:44:33Z" finished-at="2019-12-22T09:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidusername_password -->
+        <test-method status="PASS" signature="validUsername_Password()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="validUsername_Password" duration-ms="1752" started-at="2019-12-22T09:44:37Z" finished-at="2019-12-22T09:44:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsername_Password -->
+        <test-method status="PASS" signature="Verify_Url_DashBoard()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="Verify_Url_DashBoard" duration-ms="11" started-at="2019-12-22T09:44:39Z" finished-at="2019-12-22T09:44:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Url_DashBoard -->
+        <test-method status="PASS" signature="verifyApplicationTitle_DashBoard()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="verifyApplicationTitle_DashBoard" duration-ms="7" started-at="2019-12-22T09:44:39Z" finished-at="2019-12-22T09:44:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplicationTitle_DashBoard -->
+        <test-method status="PASS" signature="heading_Dashboard()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="heading_Dashboard" duration-ms="2028" started-at="2019-12-22T09:44:39Z" finished-at="2019-12-22T09:44:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- heading_Dashboard -->
+        <test-method status="PASS" signature="click_OnUser()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="click_OnUser" duration-ms="2616" started-at="2019-12-22T09:44:41Z" finished-at="2019-12-22T09:44:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_OnUser -->
+        <test-method status="PASS" signature="getTableData()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="getTableData" duration-ms="2633" started-at="2019-12-22T09:44:43Z" finished-at="2019-12-22T09:44:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTableData -->
+        <test-method status="PASS" signature="Click_On_AddUser_Btn()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="Click_On_AddUser_Btn" duration-ms="2244" started-at="2019-12-22T09:44:46Z" finished-at="2019-12-22T09:44:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_AddUser_Btn -->
+        <test-method status="PASS" signature="Fill_Form()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="Fill_Form" duration-ms="13892" started-at="2019-12-22T09:44:48Z" finished-at="2019-12-22T09:45:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fill_Form -->
+        <test-method status="PASS" signature="clickOn_OperatorBtn()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="clickOn_OperatorBtn" duration-ms="5124" started-at="2019-12-22T09:45:02Z" finished-at="2019-12-22T09:45:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOn_OperatorBtn -->
+        <test-method status="PASS" signature="logOutBtn()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="logOutBtn" duration-ms="2150" started-at="2019-12-22T09:45:07Z" finished-at="2019-12-22T09:45:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutBtn -->
+        <test-method status="PASS" signature="close_Browse()[pri:0, instance:Login_TestCase@2aaf7cc2]" name="close_Browse" is-config="true" duration-ms="1894" started-at="2019-12-22T09:45:10Z" finished-at="2019-12-22T09:45:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browse -->
+      </class> <!-- Login_TestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
